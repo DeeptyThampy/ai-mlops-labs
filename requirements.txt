@@ -1,0 +1,7 @@
+# Local ML deps (installed into .venv, never system Python).
+# Pinned loosely for the lab; tighten before any real deployment.
+pandas>=2.0
+scikit-learn>=1.3
+numpy>=1.24
+pyarrow>=14.0        # parquet I/O (used when we move to S3/Athena)
+pytest>=7.4

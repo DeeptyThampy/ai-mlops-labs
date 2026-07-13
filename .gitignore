@@ -1,0 +1,22 @@
+# Python
+.venv/
+__pycache__/
+*.pyc
+
+# Processed data + model artifacts (regenerated, can be large)
+data/processed/
+models/
+*.joblib
+*.pkl
+
+# Never commit these
+.env
+*.pem
+aws-credentials*
+.aws/
+
+# OS / editor
+.DS_Store
+.ipynb_checkpoints/
+.idea/
+.pytest_cache/
