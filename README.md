@@ -39,6 +39,17 @@ ai-mlops-incident-lab/
   scripts/         data generator + cleanup
 ```
 
+## Where things live
+| I want to… | Open |
+|---|---|
+| Understand a Domain concept end-to-end (concept → in-our-code → exam trap) | [`docs/exam-notes.md`](docs/exam-notes.md) |
+| Skim / drill flashcards before the exam | [`docs/flashcards.md`](docs/flashcards.md) |
+| Look up a term (plain-English definitions) | [`docs/glossary.md`](docs/glossary.md) |
+| Review questions I've missed + distilled rules | [`docs/wrong-answer-log.md`](docs/wrong-answer-log.md) |
+| See the system diagram + design decisions | [`docs/architecture.md`](docs/architecture.md) |
+| Check cost + cleanup discipline | [`docs/cost-cleanup.md`](docs/cost-cleanup.md) |
+| Teaching / working-style rules for this repo | [`CLAUDE.md`](CLAUDE.md) *(gitignored — local only)* |
+
 ## Quickstart (local, Section 1)
 ```bash
 cd ai-mlops-incident-lab

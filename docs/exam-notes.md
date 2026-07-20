@@ -92,6 +92,8 @@ same logic instead of re-implementing it.
 
 ⚠️ Exam trap: re-deriving preprocessing separately for serving. Reuse the saved artifact.
 
+📘 Deeper reference: [flashcards](flashcards.md) Card 11 (train/serve skew) + Card 12 (`preprocess.joblib`).
+
 ### 8. Fix imbalance the right way
 
 💡 Our classes are lopsided (mostly "low"). A lazy model scores high by always guessing "low."
@@ -100,6 +102,8 @@ same logic instead of re-implementing it.
 
 ⚠️ Exam trap: "collect a bigger *test* set" does nothing for imbalance. Fixes happen on the
 *training* data (weighting, oversampling/SMOTE) and in your *choice of metric*.
+
+📘 Deeper reference: [flashcards](flashcards.md) Cards 1–10 (imbalance, accuracy, recall / precision / F1, class weighting, SMOTE).
 
 ### The AWS side of Domain 1 (built in Section 2)
 
@@ -110,6 +114,8 @@ same logic instead of re-implementing it.
   load into a warehouse (that's Redshift — ⚠️ trap).
 - **Parquet + partitioning** — the standard way to make Athena cheaper (scan fewer bytes).
 - **Encryption** — turn on S3 encryption (SSE-S3 or SSE-KMS) so data is protected at rest.
+
+📘 Deeper reference: [flashcards](flashcards.md) Cards A1–A14 (S3 mental model, Glue Data Catalog, Crawler vs CTAS vs Glue ETL, Athena, Parquet, partitioning, CTAS, Snappy).
 
 ---
 
