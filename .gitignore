@@ -20,3 +20,4 @@ aws-credentials*
 .ipynb_checkpoints/
 .idea/
 .pytest_cache/
+CLAUDE.md
